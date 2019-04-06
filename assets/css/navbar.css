@@ -1,0 +1,54 @@
+.dropdown:hover> .dropdown-menu{
+	display: block;
+	z-index: -1;
+	margin-top: -8px;
+	animation: load 0.5s forwards;
+}
+
+nav .menu-icon{
+	width:24px;
+	height:24px;
+	display: inline-block;
+	margin: 20px
+}
+
+@font-face{font-family:Conv_RazerF5;src:url(fonts/RazerF5.eot);src:local("☺"),url(fonts/RazerF5.woff) format("woff"),url(fonts/RazerF5.ttf) format("truetype"),url(fonts/RazerF5.svg) format("svg");font-weight:400;font-style:normal}
+
+.dropdown:hover{
+	color: white
+}
+
+.bg-grey{
+	background-color: #404040;
+}
+
+#bodas{
+	color: #888;
+}
+
+body{
+	font-family: Conv_RazerF5;
+}
+
+#sub-menu li:first-child{
+	animation-delay: 10s;
+}
+.dropdown-menu:nth-child(2){
+	animation-delay: 0.5s;
+}
+.dropdown-menu:last-child{
+	animation-delay: 10s;
+}
+#bodas:hover{
+	background-color:black;
+	color: white;
+}
+
+@keyframes load{
+	0%{
+		transform:translatey(-400px);
+	}
+	100%{
+		transform:translatey(0px);
+	}
+}
