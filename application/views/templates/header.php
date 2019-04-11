@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		
+		<link rel="stylesheet" href="<?= base_url();?>/assets/css/index.css">
 		<link rel="stylesheet" href="<?= base_url();?>/assets/css/navbar.css">
 		<link rel="icon" href=" <?php echo base_url();?>/assets/images/razer-logo-png-transparent.png">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,7 +14,7 @@
 		<title>Razer United States | For Gamers. By Gamers.</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark" style="padding: 0px; margin: 0px; background-color: #303030; vertical-align: middle">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="padding: 0px; margin-bottom:-10px; margin-top: -5px; background-color: #222222;">
 			<div class="container justify-content-center">
 				<a class="navbar-brand" href="#" style="margin-left: 50px"><img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h6c/he1/8858452525086/wordmark.svg" alt="" width="100" height="50" ></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,9 +22,9 @@
 			  </button>
 
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav mr-auto" style="justify-content: center;vertical-align: middle">
 				  <li class="nav-item dropdown">
-					<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;">
+					<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;margin-right:16px">
 					  PRODUCTS
 					</a>
 					<ul class="dropdown-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
@@ -43,7 +44,7 @@
 					</ul>
 				  </li>
 				  <li class="nav-item dropdown">
-					<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;">
+					<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;margin-right: 16px">
 					  SOFTWARE
 					</a>
 					<ul class="dropdown-menu" id="sub-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
@@ -56,7 +57,7 @@
 					</ul>
 				  </li>
 				  <li class="nav-item dropdown">
-					<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;">
+					<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;margin-right:16px">
 					  COMMUNITY
 					</a>
 					<ul class="dropdown-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
@@ -72,7 +73,7 @@
 					</ul>
 				  </li>
 				  <li class="nav-item dropdown">
-					<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;">
+					<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;margin-right: 16px">
 					  STORE
 					</a>
 					<ul class="dropdown-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
@@ -94,7 +95,11 @@
 				  </li>
 				</ul>
 			  </div>
-			  <a href="#"><img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/hb9/h85/8858451968030/search.svg" alt="" class="menu-icon"></a>
+			  <a href="#" ><img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/hb9/h85/8858451968030/search.svg" alt="" class="menu-icon"></a>
 			  <a href="#"><img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/root/h75/h25/8953726959646/cart.svg" alt="" class="menu-icon"></a>
+			  <div class="language" style="margin-left: 20px">
+				  <img src="<?= base_url(); ?>/assets/icon/US.png" alt="">
+				  <a href="#" style="text-decoration: none;color: #888;"><span id="us">US</span></a>
+			  </div>
 			</div>
 		</nav>

@@ -9,10 +9,12 @@ nav .menu-icon{
 	width:24px;
 	height:24px;
 	display: inline-block;
-	margin: 20px
+	margin: 20px;
 }
 
-@font-face{font-family:Conv_RazerF5;src:url(fonts/RazerF5.eot);src:local("☺"),url(fonts/RazerF5.woff) format("woff"),url(fonts/RazerF5.ttf) format("truetype"),url(fonts/RazerF5.svg) format("svg");font-weight:400;font-style:normal}
+.dropdown-menu li{
+	margin-top: 10px;
+}
 
 .dropdown:hover{
 	color: white
@@ -26,8 +28,12 @@ nav .menu-icon{
 	color: #888;
 }
 
-body{
-	font-family: Conv_RazerF5;
+nav li{
+	font-family: "Titillium";
+}
+
+#us:hover{
+	color: white;
 }
 
 #sub-menu li:first-child{
