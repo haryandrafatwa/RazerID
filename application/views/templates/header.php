@@ -11,10 +11,10 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		
-		<title>Razer United States | For Gamers. By Gamers.</title>
+		<title><?= $judul;?></title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark" style="padding: 0px; margin-bottom:-10px; margin-top: -5px; background-color: #222222;">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="padding: 0px; margin-bottom:-10px; margin-top: -5px; background-color: #222222;" style="z-index: 12">
 			<div class="container justify-content-center">
 				<a class="navbar-brand" href="#" style="margin-left: 50px"><img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h6c/he1/8858452525086/wordmark.svg" alt="" width="100" height="50" ></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

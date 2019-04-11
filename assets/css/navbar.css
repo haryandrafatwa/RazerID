@@ -1,6 +1,6 @@
 .dropdown:hover> .dropdown-menu{
 	display: block;
-	z-index: -1;
+	z-index: 1;
 	margin-top: -8px;
 	animation: load 0.5s forwards;
 }
@@ -18,10 +18,6 @@ nav .menu-icon{
 
 .dropdown:hover{
 	color: white
-}
-
-.bg-grey{
-	background-color: #404040;
 }
 
 #bodas{
