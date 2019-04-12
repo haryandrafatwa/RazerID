@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+}
+.daftar{
+	color: #eee;
+	margin-top: 12px;
+	font-size: 12px;
+	background-color: transparent;
+	border: solid 1px rgba(255,255,255,1.00);
+	font-weight: 600;
+	font-family: Titillium;
+	margin-left: 10px;
+	height: 30px; 
+	width: 108px;
+	border-radius: 2px;
+}
+
+.daftar:hover{
+	opacity: 0.6;
+}
+
+#bahasa{
+	background-color: transparent;
+	border: none;
+	margin-top: 12px;
+	font-size: 12px;
+	font-family: Titillium;
+	cursor: pointer;
+	font-weight: 600
+}
+
+.highlighted{
+	color: #01CD01!important
+}
+
+.bahasa-list{
+	color: #eee;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 8px;
+}
+
+.bahasa-list:hover{
+	color: #eee;
+	text-decoration: none;
+	font-size: 12px;
+	background-color: #555;
+}
+
+.dropdown-menu{
+	margin-right: -64px!important;
+	background-color: black!important;
+	border-radius: 0px!important;
+}
+
+#jumbo{
+	margin-top: 50px;
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgba(0,0,0,1);
+	background-color: black;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8)!important;
+	opacity: 0.8;
+}
+
+.supp{
+	color: #eee;
+	font-size: 12px;
+	font-family:Titillium;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.sup{
+	margin-top: 12px;
+	text-decoration: none;
+}
+
+.sup:hover{
+	text-decoration: none;
+}
+
+section{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 105vh;
+	background-image:url('https://assets.razerzone.com/razerid/bg/razer-phone.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section .box{
+	position: relative;
+	max-width: 600px;
+	padding: 50px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	overflow: hidden;
+	color: #000;
+	margin-left: 400px;
+	margin-top: 50px;
+	height: 400px;
+	width: 328px;
+}
+
+section .color .box:before{
+	content: '';
+	position: absolute;
+	top:-20px;
+	left:-20px;
+	right:-20px;
+	bottom: -20px;
+	background-image:url('https://assets.razerzone.com/razerid/bg/razer-phone.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	filter: blur(40px);
+	
+}
+
+section .color :after{
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top:-400px;
+	left:-400px;
+	right:-400px;
+	bottom: -400px;
+	background:#000;
+	background-size: cover;
+	
+	filter:opacity(0.4);
+	
+}
+
+section .box .text{
+	position:relative;
+	margin: 0 0 20px;
+	padding: 0;
+	z-index: 2;
+	color:green;
+}
+
+section input[type=text]{
+	background-color: transparent;
+	color: white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px white solid;
+	margin-bottom:32px;
+	margin-left: 425px;
+	z-index: 3;
+}
+section input[type=password]{
+	background-color: transparent;
+	color: white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px white solid;
+	margin-left: 425px;
+	z-index: 3;
+}
+
+input::placeholder {
+	color:white;
+}
+
+label, input {
+  transition: all 0.1s;
+  touch-action: manipulation;
+}
+
+input:focus {
+  outline: 0;
+  border-bottom: 1px solid #666;
+
+}
+
+input:placeholder-shown + label {
+  cursor: text;
+  max-width: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform-origin: left bottom;
+  transform: translate(0, 1.8rem) scale(1.5);
+}
+
+input:not(:placeholder-shown) + label,
+input:focus + label {
+  transform: translate(0, 0.5rem) scale(1);
+  cursor: pointer;
+	color: white;
+}
+
+.field {
+  display: flex;
+  flex-flow: column-reverse;
+  margin-bottom: 20px;
+}
+
+.field .text-label{
+	color: white;
+	margin-left: 425px;
+	z-index: 3;
+	font-size: 12px
+}
+
+section input[type="text"]:focus ~ label, input[type="password"]:focus ~ label  {
+  
+  color: #555!important;
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+	color:white;
+}
+
+.fa-eye{
+	color: white;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.fa-eye:hover{
+	color: #01CD01;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.txt-lupa{
+	margin-left:-55px;
+	margin-top: -215px;
+	z-index: 5;
+	color: #888;
+}
+
+#btn-razer{
+	background-color: #01CD01;
+}
+
+#btn-razer:hover{
+	opacity: 0.8;
+}
+
+#btn-daftar{
+	background-color: transparent;
+	border: 1px solid #888;
+	color: #888;
+}
+
+#btn-daftar:hover{
+	opacity: 0.5;
+}
+
+.ssi-tile {
+        width: 30px;
+		height: 30px;
+        position: absolute;
+        left: 0;
+        top: -1px;
+        background-repeat: no-repeat;
+    }
+
+.tile-google {
+        background-image: url('https://assets.razerzone.com/razerid/images/ssi_logo_google.svg');
+        background-color: #fff;
+        background-size: 24px;
+        background-position: center;
+		margin-left:200px;
+	margin-top: 100px;
+    }
+
+#googlebtn{
+	 background-color: #4285f4;
+	 padding: 5px;
+	color: white;
+	border-radius: 3px;
+	margin-top:20px;
+	margin-left:-500px;
+	width: 210px;
+	height: 40px;
+}
+#fbbtn{
+	 background-color: #243B6C;
+	 padding: 5px;
+	color: white;
+	border-radius: 3px;
+	margin-top:20px;
+	margin-left:-235px;
+	width: 210px;
+	height: 40px;
+}
+#twitchbtn{
+	 background-color: #3E2777;
+	 padding: 5px;
+	color: white;
+	border-radius: 3px;
+	margin-top:20px;
+	margin-left:30px;
+	width: 210px;
+	height: 40px;
+}
+
+.footer{
+	text-decoration: underline;
+	color: white;
+}
+
+.footer:hover{
+	color: white;
+}

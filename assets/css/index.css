@@ -8,6 +8,12 @@
    border-radius: 10%/50%;
  }
  
+ .carousel-indicators li:hover{
+	 cursor: pointer;
+	 background-color: #01CD01;
+  	 background-color: rgba(1,205,1,1.00);
+ }
+
  .carousel-indicators .active {
    width: 30px;
    height: 5px;
@@ -16,6 +22,94 @@
 
 #razer1{
   object-fit: cover;
-
   height: 200px;
+}
+
+#razer2{
+	object-fit: cover;
+	height: 15.625rem;
+	width: 100%;
+}
+
+.card-text{
+	color: #888;
+	font-size: 1.125em;
+	text-align: center
+}
+
+.card-text a{
+	color: #01CD01;
+	text-decoration: none;
+}
+
+.card-text a:hover{
+	color: #01CD01;
+	text-decoration: none;
+}
+
+#colorcard{
+	background-color: black;
+	color: #888;
+	border-radius: 0px;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+#text-image{
+	font-size: 2.5rem;
+	color: #999;
+	line-height:1;
+	font-family: Titillium;
+	cursor: pointer
+}
+.carousel-inner .carousel-item{
+  height: 580px
+}
+
+.carousel-inner .carousel-item img{
+  object-fit: cover;
+  height: 580px
+}
+
+#text-sila{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+}
+
+.caption {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+	color: white;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+#txt-spt{
+	font-weight: 100;
+	color: #999;
+}
+
+#txt-cpy{
+	font-size: 12px;
+	font-weight: 100;
+	color: #999;
+}
+
+#txt-spt:hover{
+	font-weight: 100;
+	color: white;
+	text-decoration: none;
 }

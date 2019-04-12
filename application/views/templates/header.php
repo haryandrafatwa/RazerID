@@ -5,6 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		
+		<link rel="icon" href="https://assets.razerzone.com/razerid/images/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="https://assets.razerzone.com/razerid/images/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="<?= base_url();?>/assets/css/index.css">
 		<link rel="stylesheet" href="<?= base_url();?>/assets/css/navbar.css">
 		<link rel="icon" href=" <?php echo base_url();?>/assets/images/razer-logo-png-transparent.png">
@@ -14,7 +16,7 @@
 		<title><?= $judul;?></title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark" style="padding: 0px; margin-bottom:-10px; margin-top: -5px; background-color: #222222;" style="z-index: 12">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="padding: 0px; margin-bottom:-10px; margin-top: -5px; background-color: #222222;">
 			<div class="container justify-content-center">
 				<a class="navbar-brand" href="#" style="margin-left: 50px"><img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h6c/he1/8858452525086/wordmark.svg" alt="" width="100" height="50" ></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,7 +83,7 @@
 						<li><a class="dropdown-item" id="bodas" href="#">RazerStore (Retail)</a></li>
 					</ul>
 				  </li>
-				  <li class="nav-item dropdown">
+				  <li class="nav-item dropdown ">
 					<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;">
 					  SUPPORTS
 					</a>

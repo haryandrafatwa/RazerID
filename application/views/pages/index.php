@@ -1,4 +1,4 @@
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel slide" data-interval="5000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -10,71 +10,109 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h43/h7e/9168942727198/1920x700-desktop-v2.jpg" class="d-block w-100" alt="...">
+      <a href="#" ><img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h43/h7e/9168942727198/1920x700-desktop-v2.jpg" class="d-block w-100" alt="..." style=""></a>
+		<div class="carousel-caption" style="margin-bottom: 350px">
+			<h3 id="text-image">Now at a Limited-Time Price of </br>
+			<span>$499</span></br>
+			<span style="font-size:1.125rem;color:white; font-weight:bold;">GET THE RAZER PHONE 2 <span style="color:#01CD01">></span></span>
+			</h3>
+      </div>
     </div>
 
     <div class="carousel-item">
-      <img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h30/hdd/9170150981662/razer-blade-15-accolades-desktop-home-large-v2.jpg" class="d-block w-100" alt="...">
+      <a href="#"><img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h30/hdd/9170150981662/razer-blade-15-accolades-desktop-home-large-v2.jpg" class="d-block w-100" alt="..."></a>
+		<div class="carousel-caption" style="margin-bottom: 380px">
+			<h3 id="text-image">The Editor's Choice for GeForce </br>
+			<span>RTX<sup style="vertical-align: super;font-size: 1rem;
+				line-height:0px; top:0px;">TM</sup> Gaming Laptop</span>
+			</h3>
+      </div>
     </div>
 
     <div class="carousel-item">
-      <img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h26/h2d/9101166805022/razer-nari-ultimate-home-desktop.jpg" class="d-block w-100" alt="...">
+      <a href="#"><img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h26/h2d/9101166805022/razer-nari-ultimate-home-desktop.jpg" class="d-block w-100" alt="..."></a>
+		<div class="carousel-caption" style="margin-bottom: 350px">
+			<h3 id="text-image">Wireless Gaming Headset with </br>
+			<span>Razer HyperSense</span></br>
+			<span style="font-size:1.125rem;color:white; font-weight:bold;">DISCOVER THE RAZER NARI ULTIMATE <span style="color:#01CD01">></span></span>
+			</h3>
+      </div>
     </div>
 	  
 	<div class="carousel-item">
-      <img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h41/h09/9133692125214/razer-gold-silver-refresh-homepage-large.jpg" class="d-block w-100" alt="...">
+      <a href="#"><img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h41/h09/9133692125214/razer-gold-silver-refresh-homepage-large.jpg" class="d-block w-100" alt="..."></a>
+		<div class="carousel-caption" style="margin-bottom: 390px">
+			<h3 id="text-image">Get Rewarded with Bonus Silver </br>
+			<span style="font-size:1.125rem;color:white; font-weight:bold;">UPGRADE TO RAZER GOLD <span style="color:#01CD01">></span></span>
+			</h3>
+      </div>
     </div>
   </div>
 
   <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" style="margin-left: -60px;padding:0px">  
+	<span aria-hidden="true"><img src="<?php echo base_url();?>/assets/icon/Left.png" alt=""></span>
+	<span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next" style="margin-right: -60px;padding:0px">
+    <span aria-hidden="true"><img src="<?php echo base_url();?>/assets/icon/Right.png" alt=""></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
 
 <div style="background-color:#222222">
-	<div class="container" style="padding-top: 5px;">
+	<div class="container-lg" style="padding-top:4px;">
 		<div class="row">
 			<div class="col-sm-3">
-				<div class="card" style="width: 18rem;">
+				<div class="card" style="width: 21rem;" id="colorcard" >
 					<img class="card-img-top" src="//cdn.optimizely.com/img/529790331/895816af2c52420da78c71ff21ce1051.jpg" alt="Card image cap" id="razer1">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<p class="card-text">Get up to $300 off today.<br><a href="#">Razer Blade 15 (2018) ></a></p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-3">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="//cdn.optimizely.com/img/529790331/895816af2c52420da78c71ff21ce1051.jpg" alt="Card image cap" id="razer1">
+				<div class="card" style="width: 21rem;" id="colorcard">
+					<img class="card-img-top" src="https://cdn.optimizely.com/img/529790331/661fa39c9d91414ba4c9f045bda79389.jpg" alt="Card image cap" id="razer1">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<p class="card-text">Wireless keyboard & mouse for Xbox One. <a href="#">Learn More ></a></p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-3">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="//cdn.optimizely.com/img/529790331/895816af2c52420da78c71ff21ce1051.jpg" alt="Card image cap" id="razer1">
+				<div class="card" style="width: 21rem;" id="colorcard">
+					<img class="card-img-top" src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h16/ha9/9169557848094/razer-ripsawHD-homepage-B.jpg" alt="Card image cap" id="razer1">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<p class="card-text">Next Level Streaming.<br><a href="#">Razer Ripsaw HD ></a></p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-3">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="//cdn.optimizely.com/img/529790331/895816af2c52420da78c71ff21ce1051.jpg" alt="Card image cap" id="razer1">
+				<div class="card" style="width: 21rem;" id="colorcard">
+					<img class="card-img-top" src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h03/h54/9162472620062/Spring-promo-ZoneB.jpg" alt="Card image cap" id="razer1">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<p class="card-text">It's spring break. But the gaming continues. <a href="#">Shop Spring Deals ></a></p>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="row" style="margin-top:25px">
+			<div class="thumbnail text-center">
+				<span>
+					<img src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/ha8/h4b/9169521508382/SoftminerSilaGiveaway_Homepage_C_1920x250_040419.jpg" alt="" id="razer2">
+					<div class="caption">
+						<h3 style="font-size:2.25rem;font-weight:100">SCORE A RAZER SILA</h3>
+						<span style="font-size:15px;">
+							Get Active on Razer SoftMiner.
+						</span></br>
+						<a href="#" style="text-decoration: none">
+							<span style="font-size:15px;color:#01CD01">
+								Discover More >
+							</span>
+						</a>
+						</h3>
+					</div>
+				</span>
 			</div>
 		</div>
 	</div>
