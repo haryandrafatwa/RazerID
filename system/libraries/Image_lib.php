@@ -1021,10 +1021,10 @@ class CI_Image_lib {
 		// going to have to figure out how to determine the color
 		// of the alpha channel in a future release.
 
-		$white = imagecolorallocate($src_img, 255, 255, 255);
+		#fff = imagecolorallocate($src_img, 255, 255, 255);
 
 		// Rotate it!
-		$dst_img = imagerotate($src_img, $this->rotation_angle, $white);
+		$dst_img = imagerotate($src_img, $this->rotation_angle, #fff);
 
 		// Show the image
 		if ($this->dynamic_output === TRUE)

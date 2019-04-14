@@ -79,7 +79,7 @@
 				</a>
 				<a href="" style="z-index: 6;text-decoration: none;">
 					<div  id="fbbtn" >
-						<span style="background-color:#3B5998;padding-bottom:12px;margin-left:-30px;padding-left:5px;padding-top:6.5px;padding-right: 5px;margin-top: 5px;border-top-left-radius:4px;border-bottom-left-radius: 4px "><img src="https://assets.razerzone.com/razerid/images/ssi_logo_facebook.svg" alt="" style="width: 30px;height:25px;margin-bottom: 2px"></span>	
+						<span style="background-color:#3B5998;padding-bottom:12px;margin-left:-30px;padding-left:5px;padding-top:6.5px;padding-right: 5px;margin-top: 5px;border-top-left-radius:4px;border-bottom-left-radius: 4px; "><img src="https://assets.razerzone.com/razerid/images/ssi_logo_facebook.svg" alt="" style="width: 30px;height:25px;margin-bottom: 2px"></span>	
 						<span style="margin-left: 30px;font-size: 12px;font-family: Titillium">Masuk dengan Facebook</span>
 					</div>
 				</a>

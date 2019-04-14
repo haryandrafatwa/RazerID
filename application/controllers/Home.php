@@ -12,5 +12,10 @@ class Home extends CI_Controller{
 		$data['judul'] = 'Razer ID - Masuk';
 		$this->load->view('pages/login',$data);
 	}
+	
+	public function daftar(){
+		$data['judul'] = 'Razer ID - Buat Akun';
+		$this->load->view('pages/daftar',$data);
+	}
 
 }
