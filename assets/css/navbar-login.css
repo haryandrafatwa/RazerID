@@ -5,8 +5,6 @@
 	animation: load 0.5s forwards;
 }
 
-
-
 nav .menu-icon{
 	width:24px;
 	height:24px;
@@ -52,7 +50,7 @@ nav li{
 	background-color: black!important;
 	margin-top:-15.5px!important;
 	width: 310px;
-	height: 170px;
+	height: 200px;
 	margin-left: -206px!important;
 	padding: 0px;
 	border-radius: 0px!important;
@@ -69,9 +67,8 @@ nav li{
 	text-decoration: none
 }
 
-a.itm:hover{
+.itm:hover{
 	text-decoration: none;
-	color: white!important;
 }
 
 #txt-razer{

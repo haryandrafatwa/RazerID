@@ -11,7 +11,7 @@
  .carousel-indicators li:hover{
 	 cursor: pointer;
 	 background-color: #01CD01;
-  	 background-color: rgba(1,205,1,1.00);
+	 opacity: 1;
  }
 
  .carousel-indicators .active {
@@ -70,12 +70,12 @@
 	cursor: pointer
 }
 .carousel-inner .carousel-item{
-  height: 580px
+  height: 560px
 }
 
 .carousel-inner .carousel-item img{
   object-fit: cover;
-  height: 580px
+  height: 560px
 }
 
 #text-sila{
@@ -100,6 +100,7 @@
 #txt-spt{
 	font-weight: 100;
 	color: #999;
+	font-size: 14px;
 }
 
 #txt-cpy{

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.left-item{
+	color: white;
+	font-size:16px;
+	font-family: Titillium;
+}
+
+.jumbotron{
+	border-radius: 0px!important;
+	background-color: #131313!important;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 480px;
+	height: 160px;
+	margin-top: -12px;
+}

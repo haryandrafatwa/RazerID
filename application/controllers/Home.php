@@ -17,5 +17,19 @@ class Home extends CI_Controller{
 		$data['judul'] = 'Razer ID - Buat Akun';
 		$this->load->view('pages/daftar',$data);
 	}
+	
+	public function landing(){
+		$data['judul'] = 'Razer United States | For Gamers. By Gamers.';
+		$this->load->view('templates/header_login', $data);
+		$this->load->view('pages/index');
+		$this->load->view('templates/footer');
+	}
+	
+	public function account(){
+		$data['judul'] = 'My Account | Razer United States';
+		$this->load->view('templates/header_login', $data);
+		$this->load->view('pages/akun');
+		$this->load->view('templates/footer');
+	}
 
 }

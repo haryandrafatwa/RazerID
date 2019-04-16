@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="icon" href="<?= base_url();?>/assets/icon/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="<?= base_url();?>/assets/icon/favicon.ico" type="image/x-icon">
+	
 	<link rel="stylesheet" href="<?= base_url();?>/assets/css/index.css">
-	<link rel="stylesheet" href="<?= base_url();?>/assets/css/navbar.css">
+	<link rel="stylesheet" href="<?= base_url();?>/assets/css/navbar-login.css">
+	<link rel="stylesheet" href="<?= base_url();?>/assets/css/akun.css">
+	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="<?=base_url();?>/bootstrap/css/bootstrap.css">
@@ -21,19 +24,19 @@
 		function myDropdown( e ) {
 			e.stopPropagation();
 		}
-	</script>
+	</script>	
 </head>
 
-<body style="width:auto;padding: 0px;">
+<body style="width:auto;margin: 0px;padding: 0px;">
 	<div style="padding: 0px;background-color: #222222;">
-		<nav class="navbar navbar-expand-lg navbar-dark" style="margin: -20px;">
-		<div class="container" style="margin-left: 180px;margin-right: 180px;">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="margin: -17px;">
+		<div class="container" style="margin-left: 180px;margin-right: 180px">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> </button>
 			<a class="navbar-brand" href="#"><img src="<?=base_url();?>/assets/svg/wordmark.svg" alt="" width="100" height="50" ></a>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto" style="justify-content: center;vertical-align: middle">
 					<li class="nav-item dropdown" id="dropdown">
-						<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;">
+						<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;margin-right: 20px;">
 						  PRODUCTS
 						</a>
 						<ul class="dropdown-menu" id="dropdown-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
@@ -62,7 +65,7 @@
 						</ul>
 					</li>
 					<li class="nav-item dropdown" id="dropdown">
-						<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;">
+						<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;margin-right: 20px;">
 						  SOFTWARE
 						</a>
 						<ul class="dropdown-menu" id="dropdown-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
@@ -81,7 +84,7 @@
 						</ul>
 					</li>
 					<li class="nav-item dropdown" id="dropdown">
-						<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;">
+						<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;margin-right: 20px;">
 						  COMMUNITY
 						</a>
 						<ul class="dropdown-menu" id="dropdown-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
@@ -106,7 +109,7 @@
 						</ul>
 					</li>
 					<li class="nav-item dropdown" id="dropdown">
-						<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;">
+						<a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" style="padding:16px;margin-right: 20px;">
 						  STORE
 						</a>
 						<ul class="dropdown-menu" id="dropdown-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
@@ -135,10 +138,10 @@
 					</li>
 				</ul>
 			</div>
-			<a href="#"><img src="<?=base_url();?>/assets/svg/search.svg" alt="" class="menu-icon"></a>
-			<div class="dropdown" style="padding: 0px;">
+			<a href="#"><img src="<?=base_url();?>/assets/svg/search.svg" alt="" class="menu-icon" style="margin-right: auto;margin-left: auto"></a>
+			<div class="dropdown" style="padding: 0px;margin: -5px;">
 				<span class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<a href="#"><img src="<?=base_url();?>/assets/svg/cart.svg" alt="" class="menu-icon"></a>
+					<a href="#"><img src="<?=base_url();?>/assets/svg/cart_loggedin.svg" alt="" class="menu-icon"></a>
 				</span>
 				<div class="dropdown-menu sub-menu" aria-labelledby="dropdownMenuButton">
 					<div class="container">
@@ -146,25 +149,28 @@
 							<div class="close-cart" style="position: absolute;right: 2rem; top: 1rem;cursor: pointer;font-size: 2rem;line-height:1rem;color: #888">×
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-sm">
+						<div class="row" style="margin-top: 30px;">
+							<div class="col-sm" style="">
 								<span id="txt-razer">MY CART</span>
 							</div>
 						</div>
-						<div class="dropdown-divider"></div>
+						<div class="dropdown-divider" style="margin-left: auto;margin-right: auto;"></div>
 						<div class="row justify-content-center" style="padding: 5px;">
 							<span class="itm">Your Cart is empty</span>
 						</div>
-						<div class="row justify-content-center">
-							<a href="<?=base_url();?>/index.php/home/login" class="itm">Sign in</a>
+						<div class="row justify-content-center" style="">
+							<a href="#" class="itm">My Account<span id="txt-razer" style="padding: 0px;"> ></span></a>
+						</div>
+						<div class="row justify-content-center" style="padding: 5px;">
+							<a href="#" class="itm">Sign Out<span id="txt-razer" style="padding: 0px;"> ></span></a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="language"> <img src="<?=base_url();?>/assets/icon/US.png" alt="">
+			<div class="language">
+				<span><img src="<?=base_url();?>/assets/icon/US.png" alt=""></span>
 				<a href="#" style="text-decoration: none;color: #888;"><span id="us">US</span></a>
 			</div>
 		</div>
 	</nav>
 	</div>
-	

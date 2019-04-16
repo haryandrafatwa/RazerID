@@ -33,7 +33,7 @@
 					<span class="sr-only">(current)</span>
 				</span>
 				<li class="nav-item">
-					<a class="nav-link" href="#"><button class="masuk">MASUK</button></a>
+					<a class="nav-link" href="<?=base_url();?>/index.php/home/login"><button class="masuk">MASUK</button></a>
 				</li>
 				<li class="nav-item dropdown">
 					<span class="btn btn-primary" data-toggle="dropdown" id="bahasa">
@@ -93,7 +93,12 @@
 							</div>
 							<div class="field" style="margin-top: 100px;">
 								<input type="submit" name="submit" value="MULAI" style="width: 280px;z-index: 5;height: 40px;padding-top: 3px;font-size: 16px;font-family: Titillium;border-radius: 2px;font-weight: bolder;border: none" id="btn-razer">	
-								<input type="button" name="submit" value="SUDAH PUNYA AKUN?" style="width: 280px;margin-top: 20px;z-index: 5;height: 40px;padding-top: 3px;font-size: 14px;font-family: Titillium;border-radius: 2px;font-weight: bolder" id="btn-login">
+								<br>
+								<a href="<?=base_url();?>/index.php/home/login" style="text-decoration: none;font-family: Titillium;font-size: 16px;">
+									<span id="btn-login" class="btn">
+										SUDAH PUNYA AKUN?
+									</span>
+								</a>
 							</div>						
 						  </form>
 					</div>
@@ -104,19 +109,19 @@
 				<div class="col-xl-6">
 					<div class="row justify-content-center" style="margin-top: 15px;margin-left: 5px;">
 						<div style="text-align: center;margin-right:60px;margin-top: 22px">
-							<a href="#">
+							<a href="#" id="btn-ssi">
 								<span style="background-color:white;padding-bottom:5px;margin-left:-30px;padding-left:1px;padding-top:2.5px;padding-right: 1px;margin-top: 5px;border-top-left-radius:3px;border-bottom-left-radius: 3px; "><img src="https://assets.razerzone.com/razerid/images/ssi_logo_google.svg" alt="" style="width: 30px;height:25px;margin-bottom: 2px"></span>
 								<span style="margin-top: 20px;height: 30px;font-size: 14px;font-family: Titillium;font-weight: bolder;" id="googlebtn">Masuk dengan Google</span>
 							</a>
 						</div>
 						<div style="text-align: center;margin-right:60px;margin-top: 22px">
-							<a href="#">
+							<a href="#" id="btn-ssi">
 								<span style="background-color:#3B5998;padding-bottom:5px;margin-left:-30px;padding-top:3px;padding-right: 1px;margin-top: 5px;border-top-left-radius:3px;border-bottom-left-radius: 3px; "><img src="https://assets.razerzone.com/razerid/images/ssi_logo_facebook.svg" alt="" style="width: 30px;height:25px;margin-bottom: 4px;"></span>
 								<span style="margin-top: 20px;height: 30px;font-size: 14px;font-family: Titillium;font-weight: bolder;" id="fbbtn">Masuk dengan Facebook</span>
 							</a>
 						</div>
 						<div style="text-align: center;margin-top: 22px">
-							<a href="#">
+							<a href="#" id="btn-ssi">
 								<span style="background-color:#5738A1;padding-bottom:5px;margin-left:-30px;padding-top:3px;padding-right: 2px;margin-top: 5px;border-top-left-radius:3px;border-bottom-left-radius: 3px; "><img src="https://assets.razerzone.com/razerid/images/ssi_logo_twitch.svg" alt="" style="width: 30px;height:25px;margin-bottom: 4px;"></span>
 								<span style="margin-top: 20px;height: 30px;font-size: 14px;font-family: Titillium;font-weight: bolder;" id="twitchbtn">Masuk dengan Twitch</span>
 							</a>

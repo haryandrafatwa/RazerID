@@ -79,7 +79,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 113vh;
+	height: 115vh;
 
 	background-image:url('https://assets.razerzone.com/razerid/bg/razer-phone.jpg');
 	background-size: cover;
@@ -183,11 +183,23 @@ input:focus + label {
 #btn-razer{
 	background-color: #01CD01;
 }
+#btn-razer:hover{
+	opacity: 0.8;
+}
 
 #btn-login{
+	margin-top: 20px;
 	background-color: transparent;
 	border: 1px solid #888;
 	color: #888;
+	width: 280px;
+	border-radius: 2px;
+	font-family: Titillium;
+	font-size: 16px;
+}
+
+#btn-login:hover{
+	opacity: 0.6;
 }
 
 .field .text-label{
@@ -281,4 +293,12 @@ section input[type="text"]:focus ~ label, input[type="password"]:focus ~ label  
 
 .footer:hover{
 	color: white;
+}
+
+a#btn-ssi:hover{
+	text-decoration: none;
+}
+
+#btn:hover{
+	opacity: 0.8;
 }

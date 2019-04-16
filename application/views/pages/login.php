@@ -70,7 +70,7 @@
 				
 				<button id="btn-razer" type="button" class="btn btn-lg btn-block" style="width: 290px;margin-left: -288px;margin-top: -120px;z-index: 5;height: 40px;padding-top: 3px;font-size: 16px;font-family: Titillium;border-radius: 3px;font-weight: bolder">MASUK</button>
 				
-				<button id="btn-daftar" type="button" class="btn btn-lg btn-block" style="width: 290px;margin-left: -290px;margin-top: -70px;z-index: 5;height: 40px;padding-top: 3px;font-size: 14px;font-family: Titillium;border-radius: 3px;font-weight: bolder">DAFTARKAN AKUN BARU</button>
+				<span id="btn-daftar" type="button" class="btn btn-lg btn-block" style="width: 290px;margin-left: -290px;margin-top: -70px;z-index: 5;height: 40px;padding-top: 3px;font-size: 14px;font-family: Titillium;border-radius: 3px;font-weight: bolder" onClick="<?=base_url();?>/index.php/home/daftar">DAFTARKAN AKUN BARU</span>
 				<a href="" style="z-index: 6;text-decoration: none;">
 					<div  id="googlebtn" >
 						<span style="background-color:white;padding-bottom:12px;margin-left:-30px;padding-left:5px;padding-top:6.5px;padding-right: 5px;margin-top: 5px;border-top-left-radius:4px;border-bottom-left-radius: 4px "><img src="https://assets.razerzone.com/razerid/images/ssi_logo_google.svg" alt="" style="width: 30px;height:25px;margin-bottom: 2px"></span>	
