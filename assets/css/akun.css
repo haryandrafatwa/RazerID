@@ -1,10 +1,37 @@
 @charset "utf-8";
 /* CSS Document */
 
-.left-item{
-	color: white;
+.myAcc{
+	color: #888;
 	font-size:16px;
 	font-family: Titillium;
+}
+
+.myAcc:hover{
+	color: white;
+	text-decoration: none
+}
+
+
+.left-item{
+	color: #888;
+	font-size:16px;
+	font-family: Titillium;
+}
+
+.left-item:hover{
+	color: #0f0;
+	text-decoration: none
+}
+
+.jmb-item{
+	color: #0f0;
+	font-size:18px;
+	font-family: Titillium;
+}
+
+.dropdown-divider{
+	width: 110%!important;
 }
 
 .jumbotron{
@@ -14,5 +41,15 @@
 	margin-right: 20px;
 	width: 480px;
 	height: 160px;
-	margin-top: -12px;
+	margin-top: -8px!important;
+}
+
+.jmb-isi{
+	color: white;
+	font-size:14px;
+	font-family: Titillium;
+}
+
+.jmb-isi:hover{
+	color: #888;text-decoration: none;
 }

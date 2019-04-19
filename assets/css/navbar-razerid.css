@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Titillium!important;
+	font-size: 16px!important;
+}
+
+body .bg-dark{
+	background-color: #222222!important;
+}
+
+a .nav-link{
+	color: #888;
+}
+
+.circular-image {
+     width: 300px;
+     height: 300px;
+     overflow: hidden;
+     border-radius: 50%; 
+}
+
+.btn-trs{
+	background-color: transparent;
+	color: white!important;
+	font-size: 12px!important;
+}
+
+#sub-menu{
+	margin-top: -2px!important;
+	margin-left: -40px;
+}
+
+.dropdown-menu{
+	margin-top: 8px!important;
+	background-color: black!important;
+	border-radius: 0px!important;
+}
+
+#highlighted{
+	color: #01CD01!important;
+}
+
+.dropdown-item{
+	color: #eee!important;
+	text-decoration: none!important;
+	font-size: 12px!important;
+	padding: 8px!important;
+}
+
+.dropdown-item:hover{
+	background-color: #555!important;
+}
+
+#navbarNavDropdown ul li{
+	margin: 0px 15px;
+}
+
+section{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	background: url(http://localhost/RazerId/assets/images/razer-phone.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}

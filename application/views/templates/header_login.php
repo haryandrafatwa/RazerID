@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="<?= base_url();?>/assets/css/index.css">
 	<link rel="stylesheet" href="<?= base_url();?>/assets/css/navbar-login.css">
 	<link rel="stylesheet" href="<?= base_url();?>/assets/css/akun.css">
+	<link rel="stylesheet" href="<?= base_url();?>/assets/css/profile.css">
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -141,7 +142,7 @@
 			<a href="#"><img src="<?=base_url();?>/assets/svg/search.svg" alt="" class="menu-icon" style="margin-right: auto;margin-left: auto"></a>
 			<div class="dropdown" style="padding: 0px;margin: -5px;">
 				<span class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<a href="#"><img src="<?=base_url();?>/assets/svg/cart_loggedin.svg" alt="" class="menu-icon"></a>
+					<span><img src="<?=base_url();?>/assets/svg/cart_loggedin.svg" alt="" class="menu-icon"></span>
 				</span>
 				<div class="dropdown-menu sub-menu" aria-labelledby="dropdownMenuButton">
 					<div class="container">

@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: Titillium
+}
+
+.breadcrumb{
+	background-color: transparent!important;
+	font-size: 12px;
+}
+
+.active{
+	color: #0f0!important;
+}
+
+.breadcrumb > li + li:before {
+    color: white!important;
+    content: "/"!important;
+    padding: 0px 0px;
+	margin: 0px -5px;
+}
+
+.breadcrumb a{
+	color: white;
+}
+
+.breadcrumb a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.myAcc{
+	color: #888;
+	font-size:16px;
+	font-family: Titillium;
+}
+
+.myAcc:hover{
+	color: white;
+	text-decoration: none
+}
+
+
+.left-item{
+	color: #888;
+	font-size:16px;
+	font-family: Titillium;
+}
+
+.left-item:hover{
+	color: #0f0;
+	text-decoration: none
+}
+
+.dropdown-divider{
+	width: 110%!important;
+}
+
+.content-lbl{
+	color: #888
+}
+
+.content-txt{
+	color: white
+}
+.btn-hijau{
+	background-color: #44d62c !important;
+	font-size: 14px!important;
+}

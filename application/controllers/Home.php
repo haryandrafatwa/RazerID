@@ -31,5 +31,19 @@ class Home extends CI_Controller{
 		$this->load->view('pages/akun');
 		$this->load->view('templates/footer');
 	}
+	
+	public function profile(){
+		$data['judul'] = 'Profile | Razer United States';
+		$this->load->view('templates/header_login', $data);
+		$this->load->view('pages/profile');
+		$this->load->view('templates/footer');
+	}
+	
+	public function razerid_account(){
+		$data['judul'] = 'Razer ID - Akun';
+		$this->load->view('templates/header_razerid',$data);
+		$this->load->view('pages/akun_razerid');
+		$this->load->view('templates/footer_razerid');
+	}
 
 }
