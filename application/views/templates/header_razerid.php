@@ -17,9 +17,20 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="<?=base_url();?>/bootstrap/css/bootstrap.css">
 	<script src="<?=base_url();?>/bootstrap/js/bootstrap.js"></script>
+	<script src="<?=base_url();?>/jquery/jquery-3.3.1.min.js"></script>
+	
 	<title>
 		<?= $judul;?>
 	</title>
+	<style>
+			html,body{
+				width: 100%;
+				height: 100%;
+				margin: 0px;
+				padding: 0px;
+				overflow-x: hidden;
+			}
+		</style>
 </head>
 
 <body>
@@ -48,11 +59,11 @@
 			</div>
 			<div class="dropdown">
 				<span class="nav-link" style="cursor: pointer;" href="#" id="drp-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<img src="<?=base_url();?>/assets/images/sila_separator.jpg" class="rounded-circle" alt="" width="36px" height="36px" style="border: 2px solid white;">
+					<img src="<?= base64_encode($user['photo']);?>" class="rounded-circle" alt="" width="36px" height="36px" style="border: 2px solid white;">
 				</span>
 				<div class="dropdown-menu" aria-labelledby="drp-menu" id="sub-menu">
 					<a class="dropdown-item text-capitalize" href="#">Edit gambar profile</a>
-					<a class="dropdown-item text-capitalize" href="#">Keluar</a>
+					<a class="dropdown-item text-capitalize" href="<?=base_url();?>/index.php/user/logout2">Keluar</a>
 				</div>
 			</div>
 			<div class="dropdown">

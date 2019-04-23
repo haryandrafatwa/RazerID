@@ -22,10 +22,19 @@
 			e.stopPropagation();
 		}
 	</script>
+	<style>
+		html,body{
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			overflow-x: hidden;
+		}
+	</style>
 </head>
 
-<body style="width:auto;padding: 0px;">
-	<div style="padding: 0px;background-color: #222222;">
+<body style="margin: 0px; padding: 0px;">
+	<div class="fixed-top" style="padding: 0px;background-color: #222222;"margin: 0px">
 		<nav class="navbar navbar-expand-lg navbar-dark" style="margin: -20px;">
 		<div class="container" style="margin-left: 180px;margin-right: 180px;">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> </button>

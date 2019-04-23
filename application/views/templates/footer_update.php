@@ -1,11 +1,11 @@
 	
 </div>	
-						<div class="row" style="margin-top: 92px;left:0;bottom:0;width:100%;margin-left:auto;margin-right: auto">
+						<div class="row" style="margin-top: 180px; left:0;bottom:0;width:100%;margin-left:auto;margin-right: auto;position: fixed">
 							<div class="col-sm-2" style="">
 							</div>
-							<div class="col-sm-8" style="text-align: center">
-								<a href="#" class="razercom">Razer.com</a><br>
-								<span class="cpyright">Hak Cipta © 2019 Razer Inc. Semua Hak Dilindungi Undang-Undang. <a href="">Tanya Jawab</a> | <a href="">Persyaratan Hukum</a> | <a href="">Kebijakan Privasi</a> | <a href="">Kebijakan Cookie</a></span>
+							<div class="col-sm-8 spt" style="text-align: center;">
+								<a href="#" class="razercom" >Razer.com</a><br>
+								<span class="cpyright" style="color:#888">Hak Cipta © 2019 Razer Inc. Semua Hak Dilindungi Undang-Undang. <a href="" style="color:#888">Tanya Jawab</a> | <a href="" style="color:#888">Persyaratan Hukum</a> | <a href="" style="color:#888">Kebijakan Privasi</a> | <a href="" style="color:#888">Kebijakan Cookie</a></span>
 							</div>
 							<div class="col-sm-2"></div>
 						</div>

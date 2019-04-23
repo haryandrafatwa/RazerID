@@ -26,11 +26,21 @@
 			e.stopPropagation();
 		}
 	</script>	
+	
+	<style>
+		html,body{
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			overflow-x: hidden;
+		}
+	</style>
 </head>
 
-<body style="width:auto;margin: 0px;padding: 0px;">
-	<div style="padding: 0px;background-color: #222222;">
-		<nav class="navbar navbar-expand-lg navbar-dark" style="margin: -17px;">
+<body style="width:auto;padding: 0px;">
+	<div class="fixed-top" style="padding: 0px;background-color: #222222;">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="margin: -18px;">
 		<div class="container" style="margin-left: 180px;margin-right: 180px">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> </button>
 			<a class="navbar-brand" href="#"><img src="<?=base_url();?>/assets/svg/wordmark.svg" alt="" width="100" height="50" ></a>
@@ -131,7 +141,7 @@
 							</li>
 							<li><a class="dropdown-item" id="bodas" href="#">RazerCare Protection Plan</a>
 							</li>
-							<li><a class="dropdown-item" id="bodas" href="#">Product Registration</a>
+							<li><a class="dropdown-item" id="bodas" href="<?=base_url();?>/index.php/user/account">Product Registration</a>
 							</li>
 							<li><a class="dropdown-item" id="bodas" href="#">Warranty Information</a>
 							</li>
@@ -160,10 +170,10 @@
 							<span class="itm">Your Cart is empty</span>
 						</div>
 						<div class="row justify-content-center" style="">
-							<a href="#" class="itm">My Account<span id="txt-razer" style="padding: 0px;"> ></span></a>
+							<a href="<?=base_url();?>/index.php/home/account" class="itm">My Account<span id="txt-razer" style="padding: 0px;"> ></span></a>
 						</div>
 						<div class="row justify-content-center" style="padding: 5px;">
-							<a href="#" class="itm">Sign Out<span id="txt-razer" style="padding: 0px;"> ></span></a>
+							<a href="<?=base_url();?>/index.php/user/logout" class="itm">Sign Out<span id="txt-razer" style="padding: 0px;"> ></span></a>
 						</div>
 					</div>
 				</div>

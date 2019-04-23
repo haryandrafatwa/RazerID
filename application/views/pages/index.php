@@ -1,4 +1,4 @@
-<div id="myCarousel" class="carousel slide" data-ride="carousel slide" data-interval="5000">
+<div id="myCarousel" class="carousel slide" data-ride="carousel slide" data-interval="5000" style="margin-top: 44px;">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -8,7 +8,7 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner">
+  <div class="carousel-inner" style="z-index: -20">
     <div class="carousel-item active">
       <a href="#" ><img src="<?=base_url();?>/assets/images/carousel/carousel_1.jpg" class="d-block w-100" alt="..." style=""></a>
 		<div class="carousel-caption" style="margin-bottom: 350px">

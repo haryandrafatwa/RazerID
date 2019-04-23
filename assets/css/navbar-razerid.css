@@ -69,3 +69,7 @@ section{
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+button:active{
+	border: green
+}

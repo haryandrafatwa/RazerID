@@ -58,6 +58,16 @@
 	text-decoration: none
 }
 
+.spt .cpyright a{
+	color: #888!important;
+	text-decoration: none
+}
+
+.spt .cpyright a:hover{
+	color: white!important;
+	text-decoration: none
+}
+
 .razercom{
 	color: white;
 	text-decoration: none;
@@ -66,4 +76,12 @@
 .razercom:hover{
 	color: white;
 	text-decoration: none;
+}
+
+::placeholder{
+	color:#555;
+}
+
+.btnedit:hover{
+	opacity: 0.6;
 }

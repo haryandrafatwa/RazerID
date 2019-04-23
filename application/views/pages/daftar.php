@@ -18,11 +18,20 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 		
 		<title><?= $judul ?></title>
+		<style>
+			html,body{
+				width: 100%;
+				height: 100%;
+				margin: 0px;
+				padding: 0px;
+				overflow-x: hidden;
+			}
+		</style>
 	</head>
 
 <body>
 	<section>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-trans justify-content-center" style="margin-top: -8px;">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-trans justify-content-center fixed-top" style="margin-top: -8px;">
 		  <a class="navbar-brand" href="#" style="margin-left: 80px;">
 			<img src="https://assets.razerzone.com/razerid/images/razer_logo.svg" alt="">
 		  </a>
@@ -77,7 +86,7 @@
 				<div class="col-xl-4">
 					<div style="text-align: center; margin-top: -460px;z-index: 10">
 						<span style="color: white;z-index: 10;font-family: Titillium; font-size: 24px;">BERGABUNG DENGAN<br>RAZER</span>
-						<form action="" method="post">
+						<form action="<?=base_url();?>/index.php/user/daftar" method="post">
 							<div class="field" style="margin-top: 30px">
 								<input type="text" name="email" id="email" placeholder="" style="width: 65%;line-height: 30px;font-family: Titillium;">
 								<label for="email" class="text-label" style="color:white;display: block;margin-left:75px;margin-top: -55px;position: relative;text-align: left;font-family: Titillium;">Email</label>

@@ -79,8 +79,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 115vh;
-
+	height: 106vh;
 	background-image:url('https://assets.razerzone.com/razerid/bg/razer-phone.jpg');
 	background-size: cover;
 	background-attachment: fixed;
