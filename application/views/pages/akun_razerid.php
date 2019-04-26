@@ -52,18 +52,20 @@
 								</div>
 							</div>
 						</button>
-						<button class="content" style="border: none;color: white;width: 556px">
-							<div class="row" style="margin-left: 0px;padding: 0px">
-								<div class="col-lg-0" style="padding: 0px;"> Keluar
+						<a href="#">
+							<button class="content" style="border: none;color: white;width: 556px">
+								<div class="row" style="margin-left: 0px;padding: 0px">
+									<div class="col-lg-0" style="padding: 0px;"> Keluar
+									</div>
+									<div class="col-lg-5 content-txt" style="padding: 0px;margin-left: 100px;">
+										Keluar dari semua perangkat Anda 
+									</div>
+									<div class="col-lg-3 content-txt" style="padding: 0px">
+										<i class="fas fa-chevron-right" style="margin-left: 152px;"></i>
+									</div>
 								</div>
-								<div class="col-lg-5 content-txt" style="padding: 0px;margin-left: 100px;">
-									Keluar dari semua perangkat Anda 
-								</div>
-								<div class="col-lg-3 content-txt" style="padding: 0px">
-									<i class="fas fa-chevron-right" style="margin-left: 152px;"></i>
-								</div>
-							</div>
-						</button>
+							</button>
+						</a>
 				</div>
 				<div class="col-6">
 					<div class="row" style="padding: 0px;margin-top: 40px;margin-bottom: -5px;margin-left: -20px;">
@@ -109,18 +111,20 @@
 								</div>
 							</div>
 					</button>
-					<button class="content" style="border: none;color: white;width: 556px">
-							<div class="row" style="margin-left: 0px;padding: 0px">
-								<div class="col-lg-0" style="padding: 0px;"> Hapus ID 
+					<a href="<?=base_url();?>index.php/user/hapus_akun">
+						<button class="content" style="border: none;color: white;width: 556px">
+								<div class="row" style="margin-left: 0px;padding: 0px">
+									<div class="col-lg-0" style="padding: 0px;"> Hapus ID 
+									</div>
+									<div class="col-lg-8 content-txt" style="padding: 0px;margin-left: px">		
+										Hapus permanen akun Anda  
+									</div>
+									<div class="col-lg-2 content-txt" style="padding: 0px">
+										<img src="https://assets.razerzone.com/razerid/web/images/icon_lock_gray.svg" class="profile-info-locked" style="margin-left: 98px;">
+									</div>
 								</div>
-								<div class="col-lg-8 content-txt" style="padding: 0px;margin-left: px">		
-									Hapus permanen akun Anda  
-								</div>
-								<div class="col-lg-2 content-txt" style="padding: 0px">
-									<img src="https://assets.razerzone.com/razerid/web/images/icon_lock_gray.svg" class="profile-info-locked" style="margin-left: 98px;">
-								</div>
-							</div>
-					</button>
+						</button>
+					</a>
 				</div>
 			</div>
 			<div class="row">

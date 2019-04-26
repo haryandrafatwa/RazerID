@@ -2,10 +2,17 @@
 
 class Home extends CI_Controller{
 	public function index(){
-		$data['judul'] = 'Razer United States | For Gamers. By Gamers.';
-		  $this->load->view('templates/header', $data);
+		if ($this->session->userdata('status')!= true) {
+			$data['judul'] = 'Razer United States | For Gamers. By Gamers.';
+			$this->load->view('templates/header', $data);
 			$this->load->view('pages/index');
 			$this->load->view('templates/footer');
+		}else{
+			$data['judul'] = 'Razer United States | For Gamers. By Gamers.';
+			$this->load->view('templates/header_login', $data);
+			$this->load->view('pages/index');
+			$this->load->view('templates/footer');
+		}
 	}
 	
 	public function daftar(){
@@ -16,16 +23,6 @@ class Home extends CI_Controller{
 	public function login(){
 		$data['judul'] = 'Razer ID - Masuk';
 		$this->load->view('pages/login',$data);
-	}
-	
-	public function landing(){
-		if ($this->session->userdata('status')!= true) {
-		  redirect(site_url('home'));
-		}
-		$data['judul'] = 'Razer United States | For Gamers. By Gamers.';
-		$this->load->view('templates/header_login', $data);
-		$this->load->view('pages/index');
-		$this->load->view('templates/footer');
 	}
 	
 	public function account(){
@@ -46,12 +43,5 @@ class Home extends CI_Controller{
 		$this->load->view('templates/header_login', $data);
 		$this->load->view('pages/profile');
 		$this->load->view('templates/footer');
-	}
-	
-	public function add(){
-		$data['judul'] = 'Razer ID - Produk';
-		$this->load->view('templates/header_razerid', $data);
-		$this->load->view('pages/tambah_produk');
-		$this->load->view('templates/footer_razerid');
 	}
 }

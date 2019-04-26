@@ -3,6 +3,7 @@
 class M_user extends CI_model
 {
 	function daftar(){
+		$url = base_url('assets/images/avatar.jpg');
 		$data = [
 			"id" => $this->input->post('razerid', true),
 			"email" => $this->input->post('email', true),
@@ -11,7 +12,8 @@ class M_user extends CI_model
 			"first_name" => "-",
 			"mobile_phone" => "-",
 			"address" => "-",
-			"secondary_email" => "-"
+			"secondary_email" => "-",
+			"photo" => base64_decode($url),
 		];
 		return $this->db->insert('user', $data);
 	}
@@ -51,5 +53,27 @@ class M_user extends CI_model
 		$this->db->where('email',$email);
 		$this->db->set('email', $newEmail);
 		$this->db->update('user');
+	}
+	
+	public function selectAkun($email,$pass){
+		$this->db->where('email',$email);
+		$this->db->where('password', $pass);
+		$result = $this->db->get('user');
+		return $result->row_array();
+	}
+	
+	public function hapusAkunUs($email){
+		$this->db->where('email',$email);		
+		$this->db->delete('user');
+	}
+	
+	public function hapusAkunAl($email){
+		$this->db->where('email',$email);
+		$this->db->delete('alamat');
+	}
+	
+	public function hapusAkunTr($email){
+		$this->db->where('email',$email);
+		$this->db->delete('transaction');
 	}
 }

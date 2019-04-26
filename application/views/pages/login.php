@@ -43,7 +43,7 @@
 					<span class="sr-only">(current)</span>
 				</span>
 				<li class="nav-item">
-					<a class="nav-link" href="<?=base_url();?>/index.php/home/login"><button class="masuk">DAFTAR</button></a>
+					<a class="nav-link" href="<?=base_url();?>/index.php/home/daftar"><button class="masuk">DAFTAR</button></a>
 				</li>
 				<li class="nav-item dropdown">
 					<span class="btn btn-primary" data-toggle="dropdown" id="bahasa">
@@ -103,7 +103,7 @@
 							<div class="field" style="margin-top: 112px;">
 								<input type="submit" name="submit" value="MASUK" style="width: 280px;z-index: 5;height: 40px;padding-top: 3px;font-size: 16px;font-family: Titillium;border-radius: 2px;font-weight: bolder;border: none" id="btn-razer">	
 								<br>
-								<a href="<?=base_url();?>/index.php/home/login" style="text-decoration: none;font-family: Titillium;font-size: 16px;">
+								<a href="<?=base_url();?>/index.php/home/daftar" style="text-decoration: none;font-family: Titillium;font-size: 16px;">
 									<span id="btn-login" class="btn">
 										DAFTARKAN AKUN BARU
 									</span>

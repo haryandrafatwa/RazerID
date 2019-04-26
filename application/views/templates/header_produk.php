@@ -43,13 +43,13 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> </button>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
-					<li class="nav-item active">
+					<li class="nav-item ">
 						<a class="nav-link text-uppercase" href="<?=base_url();?>index.php/user/account">Akun</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text-uppercase" href="#">Sambungan</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item active" >
 						<a class="nav-link text-uppercase" href="<?=base_url();?>index.php/user/add_product">Produk</a>
 					</li>
 					<li class="nav-item">

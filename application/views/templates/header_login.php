@@ -43,7 +43,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark" style="margin: -18px;">
 		<div class="container" style="margin-left: 180px;margin-right: 180px">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> </button>
-			<a class="navbar-brand" href="#"><img src="<?=base_url();?>/assets/svg/wordmark.svg" alt="" width="100" height="50" ></a>
+			<a class="navbar-brand" href="<?=base_url();?>index.php/home"><img src="<?=base_url();?>/assets/svg/wordmark.svg" alt="" width="100" height="50" ></a>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto" style="justify-content: center;vertical-align: middle">
 					<li class="nav-item dropdown" id="dropdown">
